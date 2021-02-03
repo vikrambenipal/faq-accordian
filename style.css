@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+}
+.app{
+    
+}
+.app-container{
+    border: 2px solid black;
+    width: 80%;
+    margin: 0 auto;
+}
+.faq-item{
+    display: flex;
+    flex-direction: row;
+}
+.arrow{
+    display: block;
+    margin-left: auto;
+    margin-right: 20%;
+    margin-top: 20px;
+    /* margin-left: 30%; */
+    width: 16px;
+    height: 8px;
+}
