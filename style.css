@@ -1,24 +1,41 @@
 h1{
     text-align: center;
 }
-.app{
-    
+hr {
+    width: 100%;
 }
 .app-container{
     border: 2px solid black;
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
 }
 .faq-item{
-    display: flex;
-    flex-direction: row;
+    cursor: pointer;
+    padding: 0 20px;
+}
+.accordian-content{
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s;
+    padding: 0 0px;
+    width: 85%;
+    margin-top: -15px;
 }
 .arrow{
-    display: block;
-    margin-left: auto;
-    margin-right: 20%;
-    margin-top: 20px;
-    /* margin-left: 30%; */
-    width: 16px;
+    /* display: block; */
+    width: 12px;
     height: 8px;
+    position: relative;
+    float: right;
+    margin-top: -27px;
+    /* position: absolute;
+    margin-top: -30px;
+    margin-left: 70%; */
+}
+.content-active{
+    max-height: 100px;
+    transition: max-height 0.5s;
+}
+.arrow-active{
+    transform: scaleY(-1);
 }
